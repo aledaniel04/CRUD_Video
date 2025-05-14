@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Usuario</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="contendor">
+    <div class="formularioLogin">
+      <h2 class="titulo">Registro</h2>
+      <form id="formRegistro">
+        <div class="form_group">
+          <label class="sub_titulo" for="username">Usuario</label>
+          <input class="form_style" type="text" id="username" name="username" required>
+        </div>
+
+        <div class="form_group">
+          <label class="sub_titulo" for="email">Correo</label>
+          <input class="form_style" type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form_group">
+
+          <label class="sub_titulo" for="password">Contraseña</label>
+          <input class="form_style" type="password" id="password" name="password" required>
+        </div>
+
+        <div class="form_group">
+          <label class="sub_titulo" for="confirm_password">Confirmar Contraseña</label>
+          <input class="form_style" type="password" id="confirm_password" name="confirm_password" required>
+        </div>
+        
+        <input type="submit" class="boton" value="registro">
+        <p id="mensaje"></p>
+      </form>
+      <p>¿Ya tienes una cuenta? <a class="link" href="login.html">Inicia sesión</a></p>
+    </div>
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
