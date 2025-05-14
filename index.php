@@ -29,7 +29,7 @@ if (!isset($_SESSION["usuario_id"])) {
         <label class="fs-3 fw-bold" for="buscar">buscar</label>
         <input id="busqueda" class="w-25 m-3 p-2 fs-3 fw-bold" type="text">
     
-        <button id="salir">cerrar sesion</button>
+        <button id="salir">cerrar sesión</button>
     </div>
 
 
